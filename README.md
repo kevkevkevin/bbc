@@ -18,8 +18,10 @@ pnpm build
 pnpm start
 ```
 
-This project uses React and Next.js App Router conventions with Vinext, Vite, and a Cloudflare Workers production runtime. It is not configured for a standard Vercel Next.js deployment.
+The default scripts run native Next.js. The native production build was verified successfully. Vercel configuration is provided in vercel.json: import kevkevkevin/bbc with the repository root as the project root and Next.js as the framework. No environment variables are required for the current demo.
+
+The original Vinext/Vite Cloudflare tooling remains available through dev:sites and build:sites for the separate Sites preview.
 
 Scanner results and mood states are explicitly demo data. No live blockchain data provider, wallet connection, or trading functionality is connected. Demo scan history is saved in the visitor's browser.
 
-Preview: https://bbc-companion.kevin675596.chatgpt.site
+Existing preview: https://bbc-companion.kevin675596.chatgpt.site
